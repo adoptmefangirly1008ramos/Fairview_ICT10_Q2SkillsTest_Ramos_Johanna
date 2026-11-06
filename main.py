@@ -29,7 +29,7 @@ def search_element(e):
     Nonmetal1= document.getElementById("element1").value
     #retrieve information from dictionary
     result = nonmetals.get(Nonmetal1, ("Element not found", "-", "-"))    #display the result in html
-    # Code, Name, Order, Moons
+    # symbol, name, number, mass
     document.getElementById("symbol").innerText = Nonmetal1
     document.getElementById("name").innerText = result[0]
     document.getElementById("number").innerText = result[1]
